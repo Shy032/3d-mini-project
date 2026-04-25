@@ -1,0 +1,17 @@
+{
+  "object_name": "cube_reference",
+  "units": "mm",
+  "tolerance_mm": 0.2,
+  "known_scale": {
+    "dimension": "width",
+    "value": 100
+  },
+  "zones": [
+    {
+      "id": "top_surface",
+      "type": "flat",
+      "target": "match_reference",
+      "max_allowed_excess_mm": 0.2
+    }
+  ]
+}
